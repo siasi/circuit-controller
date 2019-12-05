@@ -16,7 +16,7 @@ class CircuitControllerTest {
 	List<Circuit> circuits = controller.getCircuits();
 	assertFalse(circuits.isEmpty());
 
-	assertEquals("aCircuit", circuits.get(0).getName());
+	assertEquals("aCircuit v2", circuits.get(0).getName());
 	assertNotNull(circuits.get(0).getAEndPoint());
 	assertNotNull(circuits.get(0).getZEndPoint());
     }

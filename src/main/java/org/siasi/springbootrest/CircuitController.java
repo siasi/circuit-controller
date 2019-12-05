@@ -13,6 +13,6 @@ public class CircuitController {
     public List<Circuit> getCircuits() {
 	EndPoint aEndPoint = new EndPoint("1.1.1.1", "A");
 	EndPoint zEndPoint = new EndPoint("1.1.1.2", "C");
-	return Collections.singletonList(new Circuit("aCircuit", aEndPoint, zEndPoint));
+	return Collections.singletonList(new Circuit("aCircuit v2", aEndPoint, zEndPoint));
     }
 }
